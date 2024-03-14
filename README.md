@@ -1,0 +1,1 @@
+This Repo was made in order to test my ability to write HTML code.  I created all directories and files from the command line inside of VSCode and also altered all of the files there.  I created hyperlinks as well and used images inside of a website.  I created multiple webpages and committed to GitHub using proper commit comments as I went.
