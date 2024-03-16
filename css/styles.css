@@ -1,0 +1,61 @@
+#cat {
+    width: 100px;
+    height: auto;
+}
+
+body {
+    text-align: center;
+    background-color: brown;
+}
+
+.title {
+    font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+    text-decoration: underline;
+    font-size: 72px;
+    height: 84px;
+    margin-top: 0px;
+    background-color: white;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+    font-size: 28px;
+    margin: 5px;
+}
+
+#main-photo {
+  width: 750px;
+  height: auto;
+  margin-top: 25px;
+}
+
+.recipe-body {
+    text-align: left;
+    background-color: white;
+}
+
+.recipe-header {
+    font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+    text-decoration: underline;
+    font-size: 54px;
+    height: 70px;
+    background-color: white;
+}
+
+.recipe-img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.recipe-lesser-headers {
+    font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+    text-decoration: underline;
+    font-size: 26px;
+}
+
+.back-button {
+    text-align: center;
+}
