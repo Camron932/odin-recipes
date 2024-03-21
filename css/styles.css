@@ -1,20 +1,35 @@
-#cat {
+.cat {
     width: 100px;
     height: auto;
 }
 
 body {
     text-align: center;
-    background-color: #73306970;
+    background-color: #73306950;
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+.title-box {
+    display: inline-block;
+    border: 2px black;
+    border-style: solid;
+    width: 340px;
+    height: 88.5px;
+    margin-bottom: 36px;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 .title {
     font-family: "Brush Script MT", "Lucida Handwriting", cursive;
     text-decoration: underline;
     font-size: 72px;
-    height: 84px;
-    margin-top: 0px;
     background-color: white;
+    margin: 0px;
 }
 
 .button {
@@ -25,10 +40,19 @@ body {
     margin: 5px;
 }
 
+*:visited {
+   text-decoration: none;
+   color: black;
+}
+
+.button:hover {
+    background-color: #733069;
+}
+
 #main-photo {
-  width: 750px;
+  width: 1000px;
   height: auto;
-  margin-top: 25px;
+  margin: 60px auto;
 }
 
 .recipe-body {
@@ -42,25 +66,41 @@ body {
     font-size: 54px;
     height: 70px;
     background-color: white;
+    margin-bottom: 5px;
+    background-color: #733069;
 }
 
 .recipe-img {
     width: 200px;
     height: auto;
-    margin-bottom: 15px;
 }
 
 .recipe-lesser-headers {
     font-family: "Brush Script MT", "Lucida Handwriting", cursive;
     text-decoration: underline;
     font-size: 26px;
-    margin-left: 8px;
+    margin-left: 0px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.description {
+    background-color: #73306990;
+    padding: 5px;
+}
+
+.ingredients {
+    background-color: #73306980;
+    padding: 5px;
+}
+
+.steps {
+    background-color: #73306970;
+    padding: 5px;
 }
 
 .back-button {
     text-align: center;
+    background-color: #733069;
 }
 
-.description {
-    margin-left: 10px;
-}
